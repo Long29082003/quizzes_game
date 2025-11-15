@@ -3,11 +3,7 @@ import { generateQuizQuestions } from "./components/utils.jsx";
 import { StartingScreen } from "./components/StartingScreen.jsx";
 import { QuizScreen } from "./components/QuizScreen.jsx";
 import { ChooseTopicScreen } from "./components/ChooseTopicScreen.jsx";
-//? Test if you can get access from a component from another file to another imported function from this file.
-//? WE already know we can get access to the state from using callback function, but what if in the callback function there is
-//?an imported function from another file. 
-//? If you can test this, they you are golden in making another page
-//! The answer is: YESSSSS YOU CANNNNNN!!!!!!
+
 export function App () {
     //? States
     const [screen, setScreen] = useState("starting");
